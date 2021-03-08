@@ -1,0 +1,68 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WIP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-07 21:50+0100\n"
+"PO-Revision-Date: 2015-09-11 19:05+0100\n"
+"Last-Translator: Alessandro Vellutini <vellutini@hotmail.it>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e;esc_html_e;esc_html__;"
+"esc_html_x:1,2c;esc_attr__;esc_attr_e;_n_noop:1,2;_n_noop;_n\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: functions.php:242
+msgid "Sticky post grid"
+msgstr ""
+
+#: functions.php:243
+msgid "Do you want to enable the sticky post grid on homepage?."
+msgstr ""
+
+#: functions.php:245
+msgid "Disable"
+msgstr ""
+
+#: functions.php:246
+msgid "Layout 1"
+msgstr ""
+
+#: functions.php:247
+msgid "Layout 2"
+msgstr ""
+
+#: functions.php:248
+msgid "Layout 3"
+msgstr ""
+
+#: functions.php:249
+msgid "Layout 4"
+msgstr ""
+
+#: functions.php:309
+msgid "Banner widget area"
+msgstr ""
+
+#: functions.php:311
+msgid ""
+"This widget area will be shown near the logo (Recommended for the image "
+"widget)."
+msgstr ""
+
+#: header.php:22
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:133
+msgid "Menu"
+msgstr ""
+
+#~ msgid "Category"
+#~ msgstr "Categorisa"

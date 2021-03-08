@@ -1,0 +1,75 @@
+/*
+Theme Name: ITpress
+Theme URI: https://burgerthemes.com/itpress-free/
+Author: burgersoftware
+Author URI: https://burgerthemes.com/
+Description: ITpress WordPress theme is specially designed for an IT & Software Company. Theme is perfectly for Startup, IT Solutions, Agencies, Marketing, Consulting, and Services Company related to any business websites. It has a modern & elegant look. 25+ prebuilt templates are ready in Pro version. Some awesome features are very useful for IT & Software company's websites, Such as Service, Portfolio, Team, Timeline, Gallery, Blog Pages, Shop Pages, Pricing Pages, Contact Page, Coming Soon Page and many more. Build your website in your native language with WPML & Polylang plugin. Checkout Pro Version https://burgerthemes.com/demo/pro/itpress/
+Template: spintech
+Version: 1.0.7
+Tested up to: 5.6
+Requires PHP: 5.6
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: itpress
+Slug: itpress
+Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, footer-widgets, full-width-template, theme-options, threaded-comments, translation-ready, blog, grid-layout, portfolio, photography
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+/* Colors */
+
+:root {
+    --bs-black:#000000;
+    --bs-blue:#0d6efd;
+    --bs-indigo:#6610f2;
+    --bs-purple:#6f42c1;
+    --bs-pink:#d63384;
+    --bs-red:#dc221c;
+    --bs-orange:#fd7e14;
+    --bs-orange-dark:#ee4a34;
+    --bs-orange-dark-light:#fae4df;
+    --bs-yellow:#ffc107;
+    --bs-green:#28a745;
+    --bs-teal:#20c997;
+    --bs-cyan:#17a2b8;
+    --bs-white:#ffffff;
+    --bs-gray:#dedede;
+    --bs-gray-light: #f7f7f7;
+    --bs-gray-dark:#343a40;
+    --bs-primary:#FF5316;
+    --bs-primary-dark:#025ce2;
+    --bs-primary-light: #f3f8fe;
+    --bs-primary-shadow:rgb(0 123 255 / 0.5);
+    --bs-secondary:#01012f;
+    --bs-secondary-dark: #393939;
+    --bs-gray-500: #f2f2f2;
+    --bs-gray-500-thumb: #c2c2c2;
+    --bs-success:#28a745;
+    --bs-info:#17a2b8;
+    --bs-warning:#ffc107;
+    --bs-danger:#dc3545;
+    --bs-light:#f8f9fa;
+    --bs-dark:#343a40;
+    --bs-font-sans-serif:"Montserrat",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --bs-font-awesome: "FontAwesome";
+    --bs-gradient:linear-gradient(180deg,rgba(255,255,255,0.15),rgba(255,255,255,0));
+    --bs-gradient-image:linear-gradient(180deg,rgba(255,255,255,0.15),rgba(255,255,255,0));
+    --bs-shadow: 2px 5px 20px rgba(0, 0, 0, .2);
+    --bs-radius: 0.1875rem;
+    --bs-transition: all .35s cubic-bezier(.645,.045,.355,1);
+    --bs-transition-slow: all .55s cubic-bezier(.645,.045,.355,1);
+    --bs-transition-very-slow: all .75s cubic-bezier(.645,.045,.355,1);
+}
+
+.bg-primary-light {
+    background-color: var(--bs-primary-light);
+}
+
+/* ---//--- */
+.btn, .more-link {
+	border-radius: 0;
+}

@@ -1,0 +1,135 @@
+.theme-about-wrap * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.welcome-panel h3 {
+    margin-top: 0;
+}
+
+
+.theme-about-wrap p,
+.theme-about-wrap ul {
+    font-size: .938em;
+    line-height: 1.44;
+    font-weight: 200;
+}
+
+.about-wrap .about-text {
+    font-weight: 200;
+    font-size: 16px;
+}
+
+body .theme-about-wrap .nav-tab-wrapper {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.theme-row {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.theme-row:before,
+.theme-row:after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+.theme-column {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+@media (min-width: 768px) {
+    .theme-column {
+        float: left;
+    }
+
+    .theme-row .column-one-full {
+        width: 100%;
+    }
+
+    .theme-row .column-one-third {
+        width: 33.33333333%;
+    }
+}
+
+.theme-about-wrap .twp-section .dashicons {
+    margin-top: -4px;
+    vertical-align: middle;
+}
+
+.theme-about-wrap .nav-tab {
+    font-size: 16px;
+}
+
+.theme-about-wrap h1 {
+    font-size: 3em;
+    font-weight: 200;
+}
+
+.theme-about-wrap h3 {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+.theme-about-wrap.about-wrap .feature-section p {
+    margin-bottom: 20px;
+}
+
+.theme-about-wrap .twp-section-useful-plugins,
+.theme-about-wrap .twp-section-upgrade-to-pro,
+.theme-about-wrap .twp-section-demo-content {
+    margin-top: 50px;
+}
+
+.theme-about-wrap .wp-badge {
+    background-image: url('../../../images/logo.png');
+    background-color: transparent;
+    box-shadow: none;
+    background-position: center;
+    background-size: contain;
+    padding: 0;
+    margin: 0;
+    width: 190px;
+    height: 190px;
+}
+
+.theme-about-wrap .quick-links a {
+    margin-right: 5px;
+}
+
+.twp-about-notice .btn-dismiss {
+    margin-left: 20px;
+}
+
+.theme-about-wrap .plugin-list {
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+.theme-panel{
+    position: relative;
+    overflow: auto;
+    margin: 15px 0;
+    padding: 20px 10px;
+    border: 1px solid #ccd0d4;
+    background: #fff;
+}
+
+.required-plugin-details .button-settings{
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.required-plugin-details.required-plugin-active .button-settings{
+    display: inline-block;
+    visibility: visible;
+    opacity: 1;
+}
